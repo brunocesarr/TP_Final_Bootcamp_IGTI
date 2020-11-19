@@ -1,0 +1,28 @@
+.photoPerfil {
+  border-radius: 100;
+  margin: 20px;
+}
+
+.rowAround {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  justify-content: center;
+}
+
+.info > span,.info > span ~ span{
+  padding-bottom: 0.2em;
+}
+
+.btnPerfil:hover {
+  cursor: pointer;
+}
+
